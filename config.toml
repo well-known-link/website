@@ -1,4 +1,4 @@
 baseURL = 'https://well-known.link/'
 languageCode = 'en-us'
-title = 'well-known'
+title = '.well-known'
 theme = 'wk'
