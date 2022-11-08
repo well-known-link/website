@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Well-Known theme"
+license = "MIT"
+licenselink = "https://github.com/juliancantillo/well-known/blob/master/LICENSE"
+description = ""
+homepage = "https://well-known.link/"
+tags = []
+features = []
+min_version = "0.1.0"
+
+[author]
+  name = "Julian Cantillo"
+  homepage = "https://cantillo.dev"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
