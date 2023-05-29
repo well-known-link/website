@@ -1,3 +1,4 @@
+{{ $styles := resources.Get "css/main.css" }}
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,6 +16,9 @@
 		{{ end }}
 	</title>
 	{{ end }}
+
+        {{ $styles := $styles | fingerprint | resources.PostProcess }}
+	<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
 
 	{{ if .Site.IsServer }}
